@@ -1,9 +1,10 @@
-.header {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-top: 28px;
-  margin: 0 auto;
+  padding-top: 92px;
+  margin: 0;
   width: 1184px;
-  height: 52px;
+  height: 18px;
+
 }
