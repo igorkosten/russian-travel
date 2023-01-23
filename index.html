@@ -8,20 +8,20 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="body">
   <div class="page">
     <header class="header">
       <img class="header__logo" alt="логотип Яндекс Практикум" src="./images/header-logo.svg">
       <div class="header__lang-links">
         <a class="header__lang-link" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link active" href="#">En</a>
       </div>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <figure>
+        <figure class="figure">
           <img class="lead__image"
             alt="фото изнутри плацкартного вагона, на переднем плане спящая на нижней боковой полке пассажирка, за окном вагона видны железнодорожные цистерны"
             src="images/lead-polka.jpg">
@@ -41,7 +41,7 @@
           взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы
           выбрали и
           описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul>
+        <ul class="intro__list">
           <li><span class="intro__span-accent">Часовых поясов</span>11</li>
           <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
           <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
@@ -55,54 +55,72 @@
           <li>
             <picture class="photo-grid__item">
               <img src="images/photo-grid-train.jpg" class="gallery__img"
-                alt="фото вид из окна жклкзнодорожного вагона">
+                alt="фото вид из окна железнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-atharva-tulsi.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-tuman.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
+              <img src="" class="gallery__img"
+                alt="фото вид из окна жклкзнодорожного вагона">
+            </picture>
+          </li>
+          <li>
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-arisa.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-baikal.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-elbrus.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
+              <img src="" class="gallery__img"
+                alt="фото вид из окна жклкзнодорожного вагона">
+            </picture>
+          </li>
+          <li>
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-kamchatka-1.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-kamchatka-2.jpg" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
           <li>
-            <picture class="photo_grid__item">
+            <picture class="photo-grid__item">
               <img src="images/photo-grid-baikal-2.jpg" class="gallery__img"
+                alt="фото вид из окна жклкзнодорожного вагона">
+            </picture>
+          </li>
+          <li>
+            <picture class="photo-grid__item">
+              <img src="" class="gallery__img"
                 alt="фото вид из окна жклкзнодорожного вагона">
             </picture>
           </li>
@@ -110,8 +128,7 @@
       </section>
       <section class="places">
         <ul class="cards__container">
-          <li class="place__cards">
-            <div class="place__card">
+            <li class="place__card">
               <h2 class="place__title">Куршская коса</h2>
               <img class="place__image" alt="фото берег Куршской косы" src="images/place-kosa.jpg">
               <div class="place__website-url">
@@ -131,10 +148,8 @@
                   природы
                   и запах стального, прохладного моря.</p>
               </div>
-            </div>
-          </li>
-          <li class="place__cards">
-            <div class="place__card">
+            </li>
+              <li class="place__card">
               <h2 class="place__title">Кольский</h2>
               <img class="place__image" alt="фото заснеженного горного склона" src="images/place-kolsky.jpg">
               <div class="place__website-url">
@@ -153,10 +168,9 @@
                   давно
                   накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
               </div>
-            </div>
+            </li>
           </li>
-          <li class="place__cards">
-            <div class="place__card">
+              <li class="place__card">
               <h2 class="place__title">Алтай</h2>
               <img class="place__image"
                 alt="фото из помещения вид из окна на густой лес, на переднем плане на подоконнике стоит ноутбук"
@@ -174,10 +188,9 @@
                   всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на
                   равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
               </div>
-            </div>
+            </>
           </li>
-          <li class="place__cards">
-            <div class="place__card">
+            <li class="place__card">
               <h2 class="place__title">Зимний Байкал</h2>
               <img class="place__image" alt="фото прозрачной льдины, испещренной трещинамицц"
                 src="images/place-winter-baikal.jpg">
@@ -195,10 +208,9 @@
                   как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен
                   мировой рекорд — 197.011 км/ч.</p>
               </div>
-            </div>
+            </li>
           </li>
-          <li class="place__cards">
-            <div class="place__card">
+            <li class="place__card">
               <h2 class="place__title">Карелия</h2>
               <img class="place__image" alt="фото вид нареку с берегами, заросшими деревьями"
                 src="images/place-karelia.jpg">
@@ -214,7 +226,7 @@
                   В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров
                   от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
               </div>
-            </div>
+            </li>
           </li>
         </ul>
       </section>
