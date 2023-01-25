@@ -9,5 +9,20 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+.footer__column-link {
+  width: 74px;
+  height: 24px;
+  margin-bottom: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 }

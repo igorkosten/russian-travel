@@ -1,4 +1,6 @@
 .place__paragraphs{
+  margin: 0;
+  padding: 0;
   width: 484px;
   font-family: 'Inter';
   font-style: normal;
@@ -8,4 +10,24 @@
   color: #FFFFFF;
   grid-row: 2/3;
   grid-column: 2/3;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+.place__paragraphs{
+  width: 456px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.place__paragraphs{
+  width: 352px;
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.place__paragraphs{
+  width: 320px;
+  font-size: 16px;
+}
 }

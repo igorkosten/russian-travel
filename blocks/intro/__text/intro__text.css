@@ -4,4 +4,24 @@
   padding: 0;
   width: 690px;
   line-height: 1.62;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: start;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.intro__text {
+  width: 720px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.intro__text {
+  width: 288px;
+  margin-bottom: 34px;
+}
 }

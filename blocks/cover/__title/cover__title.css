@@ -11,3 +11,12 @@
   display: inline-block;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+.cover__title {
+  font-size: 32px;
+  line-height: 35px;
+  width: 288px;
+  height: 70px;
+}
+}
