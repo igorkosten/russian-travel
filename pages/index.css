@@ -30,7 +30,7 @@
 
 
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__card/place__card.css);
+@import url(../blocks/places/__title-url/places__title-url.css);
 @import url(../blocks/places/__container/cards__container.css);
 @import url(../blocks/places/__image/place__image.css);
 @import url(../blocks/places/__paragraph/place__paragraph.css);

@@ -10,7 +10,20 @@
   color: #FFFFFF;
   grid-row: 2/3;
   grid-column: 2/3;
+
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+  @media screen and (max-width: 767px) {
+  .cards__container{
+    width: 320px;
+
+  }
+  }
+
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 .place__paragraphs{
@@ -29,5 +42,6 @@
 .place__paragraphs{
   width: 320px;
   font-size: 16px;
+  margin: 0 auto;
 }
 }
