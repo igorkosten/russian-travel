@@ -1,4 +1,4 @@
-.place__card{
+.place__title-url {
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-.place__card{
+.place__title-url {
   grid-template-columns: 440px 456px;
   grid-template-rows: min-content 440px;
   gap: 32px;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-.place__card{
+.place__title-url {
   grid-template-columns: 340px 352px;
   grid-template-rows: min-content min-content;
   gap: 28px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 767px) {
-.place__card{
+.place__title-url {
   margin: 50px auto 0;
   display: flex;
   flex-direction: column;
