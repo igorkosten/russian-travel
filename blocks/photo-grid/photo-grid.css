@@ -4,7 +4,6 @@
   width: min-content;
 }
 
-
 @media screen and (max-width: 767px) {
 .photo-grid {
   margin-bottom: 64px;

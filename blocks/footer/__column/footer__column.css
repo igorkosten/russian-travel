@@ -1,14 +1,16 @@
 .footer__column {
   margin: 0;
+  padding: 0;
+  gap: 18px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* align-items: flex-end; */
+  list-style-type:none;
 }
 
 @media screen and (max-width: 767px) {
 .footer__column {
   flex-direction: column;
-  padding: 0 0 24px 16px;
+  /* padding: 0 0 24px 16px; */
 }
 }

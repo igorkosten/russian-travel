@@ -24,5 +24,6 @@
   margin: 0 auto;
   width: 320px;
   flex-direction: column;
+  padding: 0 0 24px 16px;
   }
 }
