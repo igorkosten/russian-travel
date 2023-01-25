@@ -1,7 +1,25 @@
 .places__list {
-  margin: 0 auto;
-  padding: 0;
+  margin: 0;
+  padding: 10px 0 0 130px;
   list-style: none;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+.places__list {
+  padding: 0;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.places__list {
+  padding: 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+.places__list {
+  padding: 0;
+}
 }
