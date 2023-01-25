@@ -1,4 +1,4 @@
-.place__website-url{
+.places__website-url{
   grid-row: 1/2;
   grid-column: 2/3;
   align-self: flex-end;
@@ -11,7 +11,7 @@
   }
 
 @media screen and (max-width: 767px) {
-.place__website-url{
+.places__website-url{
   width: 100%;
   font-size: 16px;
   }
