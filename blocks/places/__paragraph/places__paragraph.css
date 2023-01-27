@@ -10,15 +10,20 @@
   color: #FFFFFF;
   grid-row: 2/3;
   grid-column: 2/3;
+  margin-bottom: 22px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
 .places__paragraph{
   max-width: 456px;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 .places__paragraph{
   max-width: 352px;
   font-size: 16px;
@@ -29,6 +34,6 @@
 .places__paragraph{
   max-width: 288px;
   font-size: 16px;
-  margin: 0 auto;
+  line-height: 26.08px;
 }
 }

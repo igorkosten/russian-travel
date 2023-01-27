@@ -3,7 +3,6 @@
   margin-bottom: 30px;
   padding: 0;
   width: 690px;
-
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -12,7 +11,7 @@
   text-align: start;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
 .intro__text {
   max-width: 720px;
 }
@@ -21,6 +20,6 @@
 @media screen and (max-width: 767px) {
 .intro__text {
   max-width: 288px;
-  margin-bottom: 34px;
+  margin-bottom: 32px;
 }
 }

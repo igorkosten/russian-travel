@@ -1,25 +1,18 @@
 .places__list {
   margin: 0;
-  padding: 15px 0 0 130px;
+  padding: 0;
+  padding-left: 164px;
   list-style: none;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
 .places__list {
+  margin: 0 auto;
   padding: 0;
-}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-.places__list {
-  padding: 0;
-}
-}
-
-@media screen and (max-width: 767px) {
-.places__list {
-  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 }
