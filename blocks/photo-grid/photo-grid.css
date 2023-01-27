@@ -1,11 +1,12 @@
 .photo-grid {
   margin: 0 auto;
-  margin-bottom: 95px;
+  margin-bottom: 80px;
   width: min-content;
 }
 
 @media screen and (max-width: 767px) {
 .photo-grid {
+  width: 288px;
   margin-bottom: 64px;
 }
 }

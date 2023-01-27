@@ -1,4 +1,4 @@
-.section-title {
+.intro__section-title {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-.section-title {
+.intro__section-title {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;

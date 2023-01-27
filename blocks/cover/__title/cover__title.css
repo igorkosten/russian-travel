@@ -9,6 +9,9 @@
   line-height: 76px;
   display: inline-block;
   color: #FFFFFF;
+  position: relative;
+  z-index: 5;
+  top: 10px;
 }
 
 @media screen and (max-width: 767px) {
