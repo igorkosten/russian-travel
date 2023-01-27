@@ -17,7 +17,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 .places__list-item {
   grid-template-columns: 340px 352px;
-  grid-template-rows: min-content min-content;
   gap: 28px;
   margin-bottom: 73px;
 }
