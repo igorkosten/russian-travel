@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../dev_sprint-1/how-to-learn"
+		},
+		{
+			"name": "russian-travel",
+			"path": "."
+		}
+	],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "how-to-learn"
+  }
+}
